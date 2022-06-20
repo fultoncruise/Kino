@@ -1,0 +1,55 @@
+@keyframes augen {
+    from {
+      background-color: black;
+      }
+    to {
+      background-color: red;
+      transform: rotate(90deg);
+      }
+  }
+  
+  .gesicht{
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    position: relative;
+  }
+  
+  .auge1, .auge2{
+    width: 55px;
+    height: 55px;
+    background-color: #000000;
+    position: absolute;
+    top: 45px;
+    animation-name: augen;
+    animation-duration: 4s;
+  }
+  
+  .auge1{
+    left: 65px;
+  }
+  
+  .auge2{
+    right: 65px;
+  }
+  
+  .nase{
+    width: 55px;
+    height: 55px;
+    background-color: red;
+    border-radius: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+  }
+  
+  .mund{
+    width: 150px;
+    height: 30px;
+    border: 10px solid red;
+    border-radius: 35px 35px 100px 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+  }
+  

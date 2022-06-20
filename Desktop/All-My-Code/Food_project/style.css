@@ -1,0 +1,32 @@
+h1{
+    font-size: 24px;
+}
+
+h2{
+    color: green;
+    text-transform: uppercase;
+}
+
+h3{
+
+}
+.nachtisch{
+    color: white;
+    background-color:blue ;
+}
+ol,ul{font-size: 18px;}
+
+.sprungmarken li a:hover{
+    color: aqua;
+}
+.mittag{background-color: green;
+color: white;
+}
+
+/*a[href*="zusammenfassung"]{
+    display: none;
+}*/
+.zusammenfassung{
+    opacity: 0
+    ;
+}

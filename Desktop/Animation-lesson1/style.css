@@ -1,0 +1,40 @@
+.parent {
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    animation: left-to-right 1s ease-in forwards infinite alternate;
+}
+.parent:hover{
+    animation-play-state: paused;
+}
+
+.child {
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    
+}
+
+.parent:hover .child {
+    transform: translateX(100%);
+    animation: left-to-right 1s ease-in forwards infinite alternate;
+}
+@keyframes left-to-right{
+    0%{
+        transform: translateX(0);
+        background-color: red;
+    }
+    33%{
+        transform: translateX(100%);
+    }
+    50%{
+        background-color: blue;
+    }
+    66%{
+        transform: translateX(100%) translateY(100%);
+    }
+    100%{
+        transform: translateX(100%);
+        background-color: green;
+    }
+}

@@ -1,0 +1,32 @@
+.warnsignal_bg{
+    width: 400px;
+    height: 400px;
+    background-image: url("https://img.joomcdn.net/70df138323d30c1a3cb7d021effafe3bf224ec66_original.jpeg");
+    background-size: 100%;
+    position: relative;
+  }
+  
+  .warnsignal_animation{
+   width: 280px;
+   height: 210px;
+   border-top-right-radius: 120px 135px;
+   border-top-left-radius: 120px 135px;
+   border-bottom-right-radius: 100px 60px;
+   border-bottom-left-radius: 125px 70px;
+   background: radial-gradient(red, rgba(0, 0, 0, 0%));
+   position: absolute;
+   background-size: 400%;
+   top: 30px;
+   left: 54.5%;
+   transform: translate(-50%, 0);
+   animation: warnsignal 2s linear infinite;
+  }
+  
+  @keyframes warnsignal{
+    0%{
+      background-position: -200% 50%;
+    }
+    100%{
+      background-position: 200% 50%;
+    }
+  }

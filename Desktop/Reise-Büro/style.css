@@ -1,0 +1,57 @@
+
+body{
+  background-color: rgba(156, 210, 174, 1);
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200px;
+  margin-left: 20px;
+}
+
+
+
+.navbar{
+  background-color: #333333;
+}
+.navbar a{
+  display: inline-block;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.subnav{
+  display: inline-block;
+}
+.subnav .subnavbtn{
+  border: none;
+  color: #FFFFFF;
+  background-color: inherit;
+  padding: 14px 16px;
+  margin: 0;
+  font-size: 24px;
+}
+.subnav-content{
+  display: none;
+  position: absolute;
+  background-color: blue;
+}
+.subnav-content a{
+  display: block;
+}
+.navbar a:hover, .subnav:hover .subnavbtn{
+  background-color: blue;
+}
+.subnav-content a:hover{
+  background-color: #eeeeee;
+  color: #000000;
+}  
+.heroImage {
+  height: 200px;
+  background-image: url(./assets/Pla.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+
+}
+

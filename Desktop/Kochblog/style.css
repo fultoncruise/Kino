@@ -1,0 +1,87 @@
+
+body{
+    background-color: #9CD2AE;
+    margin: 0 auto;
+    color: white;
+    
+   
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200px;
+}
+span{
+
+    background-color: rgba(214, 124, 42, 1); 
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin: 10px;
+    border-radius: 6px;
+    padding: 10px;
+
+
+}
+.heroImage{
+    height: 200px;
+    background-image: url(./heroImage.avif);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.bruschetta{
+    background-image: url(./bruschetta.avif);
+   
+}
+.carbonara{
+    
+    background-image: url(./carbonara.avif);
+    
+}
+.ceasarSalad{
+
+background-image: url(./ceasar\ Salad.avif);
+}
+ .tiramisu{
+    
+    background-image: url(./tiramisu.avif);
+   
+}
+.backgroundimage{
+   
+    height: 272px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    align-items: flex-end;
+    margin-top: 30px;
+
+
+}
+.title{
+    background: #D67C2A;
+    border-radius: 0px 6px 6px 0px;
+    position: absolute;
+    width: 237px;
+    padding: 10px;
+    display: flex;
+    
+}
+footer{
+    background-color: #3c5444; 
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+@media (min-width: 768px){
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.footerchild{
+    padding: 5px;
+    display: block;
+}

@@ -1,0 +1,29 @@
+.warnsignal_bg{
+    width: 100px;
+    height: 100px;
+    background-image: url("https://boolie.org/wp-content/uploads/2020/12/warnsignal.jpg");
+    background-size: 100%;
+    position: relative;
+  }
+  
+  .warnsignal_animation{
+    width: 40px;
+   height: 28px;
+   border-radius: 34%;
+   background: radial-gradient(red, rgba(0, 0, 0, 0%));
+   position: absolute;
+   background-size: 400%;
+   top: 30px;
+   left: 50%;
+   transform: translate(-50%, 0);
+   animation: warnsignal 2s linear infinite;
+  }
+  
+  @keyframes warnsignal{
+    0%{
+      background-position: -200% 50%;
+    }
+    100%{
+      background-position: 200% 50%;
+    }
+  }

@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6e5c5;
+}
+
+h1 {
+    background-color: teal;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.wheat {
+    color: #478b8e;
+    background-color: #c5eae0;
+    padding: 2px 6px;
+}
+
+section {
+    border-bottom: 1px solid teal;
+    padding-bottom: 20px;
+}
+
+section img {
+    border: 1px solid teal;
+    border-radius: 6px;
+    margin-top: 12px;
+}
+
+.step {
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    color: white;
+    display: block;
+    font-size: 48px;
+    text-align:center;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+    color: teal;
+}

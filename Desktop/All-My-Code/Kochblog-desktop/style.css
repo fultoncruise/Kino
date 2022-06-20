@@ -1,0 +1,161 @@
+
+body{
+        background-color:#9CD2AE;
+        margin: 0 auto;
+        color: white;
+      }
+
+
+
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200px;
+    margin-left: 20px;
+}
+
+
+.spanchild {
+    background-color: rgba(214, 124, 42, 1);
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin: 10px;
+    border-radius: 6px;
+    padding: 10px;
+
+}
+
+.spanparent{
+    display: flex;
+    flex-direction: column;
+}
+.spanposition{
+    display: flex;
+    flex-direction: column;
+    
+}
+.spanpositionchild{
+    display: block;
+
+}
+@media (min-width: 768px){
+    .spanparent{
+      flex-direction: row;
+      justify-content: center;
+    }
+    .spanchild{
+      display: inline;
+    }
+  }
+
+
+@media(min-width: 1200px){
+  .spanposition{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .spanpositionchild{
+    display: inline-block;
+    font-size: 24px;
+  }
+}
+
+
+.heroImage {
+    height: 200px;
+    background-image: url(./heroImage.avif);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+
+}
+
+.bruschetta {
+    background-image: url(./Bruschetta.jpg);
+
+}
+
+.carbonara {
+
+    background-image: url(./carbonara.avif);
+
+}
+
+.ceasarSalad {
+
+    background-image: url(./ceasar\ Salad.avif);
+}
+
+.tiramisu {
+
+    background-image: url(./tiramisu.avif);
+
+}
+
+.gemüse {
+
+    background-image: url(./GemueseausdemOfen.jpg);
+
+}
+
+.erbeer {
+
+    background-image: url(./Erbeer-Rhabarber-Crumble.jpg);
+
+}
+
+.gedämpfter {
+
+    background-image: url(./Gedaempfter-Fisch.jpg);
+
+}
+
+.wisentfilet {
+
+    background-image: url(./Wisent1.jpg);
+
+}
+
+.backgroundimage {
+
+    height: 217px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    align-items: flex-end;
+    display: inline-flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 280px;
+}
+
+.child {
+    background: #D67C2A;
+    border-radius: 6;
+    position: absolute;
+    width: 237px;
+    padding: 10px;
+    display: flex;
+
+}
+
+footer {
+    background-color: #3c5444;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.footerchild {
+    padding: 5px;
+    display: block;
+}

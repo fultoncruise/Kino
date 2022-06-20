@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#navlist {
+    background-color:orange;
+    position: absolute;
+    width: 100%;
+    
+
+}
+     
+/* styling navlist anchor element */
+#navlist a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+   
+}
+ 
+.navlist-right{
+    float: right;
+    
+}
+
+
+.navlist a:hover {
+    background-color: rgb(255, 0, 255);
+    color: black;
+}
+     
+/* styling search bar */
+.search input[type=text]{
+    width:320px;
+    height: 40px;
+    border: none;
+   
+    
+}
+     
+.search{
+    float:right;
+    margin:7px;
+}
+     
+.search button{
+    background-color: orange;
+    color: #f2f2f2;
+    float: right;
+    padding: 0px 0px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+   
+}
+
+
+.nav-bar{
+    border: 1px;
+    background-color: rgb(255, 0, 255);
+    color: #f2f2f2;
+    padding: 6px;
+   
+}
+a {
+    text-decoration: none;
+    color:rgb(255, 0, 255);
+    font-size: 20px;
+}
+
+
+
+h1{
+    background-color:rgb(128, 128, 128);
+    color:rgb(255, 255, 255); 
+    text-align:center;
+    padding-bottom: 300px;
+    margin-top: 15px;
+    padding: 25px 0 10px 0;
+}
+.title-section{
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 20px 0;
+   
+   
+
+}
+
+.title-section a{
+    display: block;
+
+}
+
+.text-section{
+    text-align:center;
+    color:#000000;
+   
+   
+}   
+
+a:hover img{
+   color: orange;
+   padding: 10px 25px;
+}
+
+
+
+.column {
+   width: 33%;
+   display: inline-block;  
+}
+
+p {
+    font-size:20px;
+    font-weight:bold;
+    list-style: none;
+}
+.column ul li{
+    
+     list-style: none;
+     position: relative;
+        
+}
+
+footer{
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+
+
+
+}
+
+
+
+
+

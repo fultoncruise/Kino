@@ -1,0 +1,28 @@
+.tab-nav ul li {
+    display: inline-block;
+    margin-right: 10x;
+   
+}
+.tab-nav ul li a{
+  padding: 10px 15px;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.tab-nav ul li a:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+.tab-content{
+  display: none;
+  width: 400px;
+}
+.tab-content img{
+  width: 100%;
+}
+.tab-content:target{
+  display: inline-block;
+}
+img {
+  display: inline-block;
+  }

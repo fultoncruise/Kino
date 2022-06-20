@@ -1,0 +1,58 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* navigation */
+.main-nav{
+background-color:none;
+padding: 30px;
+
+}
+
+.nav-item{
+      display: inline-block;
+      list-style-type: none;
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 15px;
+    color:black;
+}
+
+/* Header  */
+header{
+    background-color: #4796b3;
+    padding: 30px 200px;
+    margin-bottom: 90px;
+}
+.logo{
+    width: auto;
+    height:60px;
+    vertical-align: middle;
+    margin-right: 30px;
+
+}
+.page-title{
+    display: inline-block;
+    vertical-align: middle;
+}
+/* sidebar*/
+.sidebar{
+    float: right;
+    background-color: orange;
+    padding: 30px;
+    width: 300px;
+    margin-left: 60px;
+
+}
+main{
+    padding: 0 200px;
+    overflow: hidden;
+    
+}
+.fa-solid.fa-shield-halved{
+    color: red;
+}

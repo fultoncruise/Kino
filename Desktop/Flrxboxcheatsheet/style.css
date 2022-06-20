@@ -1,0 +1,52 @@
+
+h1{
+    color: red;
+}
+h2{
+    color: orange;
+}
+.container{
+    background-color: grey;
+    height: 150px;
+    display: flex;
+    margin-bottom: 5px;
+}
+.child{
+    background-color: blue;
+    border: 1px solid grey;
+    width: 100px;
+    height: 75px;
+}
+.flexstart{
+    justify-content: flex-start;
+}
+.flexend{
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
+}
+.spacearound{
+    justify-content: space-around;
+}
+.spacebetween{
+    justify-content: space-between;
+}
+.alignItemCenter{
+    justify-content: center;
+}
+.alignItemstart{
+    justify-content: flex-start;
+}
+.alignItemend{
+    justify-content: end;
+}
+
+
+
+
+
+
+
+
+

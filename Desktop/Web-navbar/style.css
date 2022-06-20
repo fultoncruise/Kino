@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #333333;
+  }
+  .navbar a{
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .subnav{
+    display: inline-block;
+  }
+  .subnav .subnavbtn{
+    border: none;
+    color: #FFFFFF;
+    background-color: inherit;
+    padding: 14px 16px;
+    margin: 0;
+  }
+  .subnav-content{
+    display: none;
+    position: absolute;
+    background-color: #FF0000;
+  }
+  .subnav-content a{
+    display: block;
+  }
+  .navbar a:hover, .subnav:hover .subnavbtn{
+    background-color: red;
+  }
+  .subnav-content a:hover{
+    background-color: #eeeeee;
+    color: #000000;
+  }  

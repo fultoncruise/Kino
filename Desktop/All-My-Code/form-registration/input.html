@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <link href="style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Registrierung</title>
+</head>
+<body>
+  <!-- Formular beginnt -->
+<form action="" method="" target="">
+<h1>Registrierungsformular</h1>
+  <!-- Auswahl für Anrede: Radio Buttons -->
+<input type="radio" id="frau" name="anrede" value="frau">
+<label for="frau">Frau</label>
+<input type="radio" id="herr" name="anrede" value="herr">
+<label for="herr">Herr</label><br>
+  <!-- Eingabe für Vor- und Nachname: Textfelder -->
+<label for="nachname">Nachname</label><br>
+<input type="text" id="nachname" name="nachname" size="20" maxlength="20" required><br>
+<label for="vorname">Vorname</label><br>
+<input type="text" id="vorname" name="vorname" size="20">
+
+<h2>Welche Hobbys haben Sie?</h2>
+<div>
+    <!-- Auswahl der Hobbys: Checkboxen -->
+  <input type="checkbox" id="reisen" name="hobby" value="Reisen">
+  <label for="reisen">Reisen</label><br>
+  <input type="checkbox" id="theater" name="hobby" value="Theater">
+  <label for="theater">Theater</label><br>
+  <input type="checkbox" id="literatur" name="hobby" value="Literatur">
+  <label for="literatur">Literatur</label><br>
+  <input type="checkbox" id="sport" name="hobby" value="Sport">
+  <label for="sport">Sport</label>
+</div>
+<h2>Zu welcher Altergruppe geh&ouml;ren Sie?</h2>
+<div>
+      <!-- Auswahl des Alters: Dropdown -->
+  <select name="alter">
+    <option value="14">unter 14</option>
+    <option value="24">15 bis 24</option>
+    <option value="34">25 bis 34</option>
+    <option value="44">35 bis 44</option>
+    <option value="54">45 bis 54</option>
+    <option value="64">55 bis 64</option>
+    <option value="74">&uuml;ber 65</option>
+  </select>
+</div>
+<h2>Sagen Sie uns Ihre Meinung:</h2>
+    <!-- Eingabe für Meinung: Mehrzeiliges Textfeld -->
+<textarea name="meinung" cols="50" rows="5"></textarea>
+<div>
+  <input type="submit" name="senden" value="Abschicken">
+  <input type="reset" name="zur&uuml;cksetzen" value="L&ouml;schen">
+</div>
+</form>
+</body>
+</html>
